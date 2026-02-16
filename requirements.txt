@@ -1,0 +1,10 @@
+playwright
+pytest
+pytest-html
+pytest-xdist
+allure-pytest
+pytest-base-url
+pytest-playwright
+Faker
+openpyxl
+pytest-rerunfailures
