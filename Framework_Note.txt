@@ -1,0 +1,28 @@
+Steps:
+1.Identify the pages —> check whether those locators are there as part of existing pages , if not create new page n locaters
+2.Identify locator , write methods , assertions, try
+3.While writing the logic —> utilise randamData, if u r doing any assertions read the data from config.ini
+4.Create a test inside the tests and simply run it …
+
+Utilities : def —> converted all the utilities into classes —> imported them __/ object —>
+
+Scenario1:
+Login to saucedemo.com
+Verify the About Page —> left menu
+Navigate back to sauce demo dashboard page , verify the page
+Logout from the application 
+
+
+Scenario2:
+Login to saucedemo.com
+navigate to all products page
+    print description for every product 
+    navigate back to home page 
+logout from the application 
+
+
+Scenario3:
+In the 2nd scenario instead of printing it , store it 
+at the end compare it with the excel data which means in the excel file 
+create a new sheet --> write the descriptions
+
